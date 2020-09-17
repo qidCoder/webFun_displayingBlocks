@@ -1,0 +1,67 @@
+/*Created by Shelley Ophir
+Coding Dojo Sep. 17,2020
+Use margins and paddings to adjust the spaces between divisions and use the display property to be able to put each block in its proper place.*/
+
+*{
+    margin: 0;
+    padding: 0;
+    /*outline: 1px dashed rgb(231, 22, 186);*/
+    box-sizing: border-box;
+}
+
+#wrapper{
+    background-color: #d5d2ae;
+    width: 689px;
+    height: 643px;
+}
+
+#header{
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+
+#header img{
+    width: 100px;
+    height: 50px;
+    background-color: white;
+}
+
+#bingo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    align-self: flex-end;
+}
+
+
+.blue{
+    height: 125px;
+    width: 125px;
+    background-color: #82b4ee;
+    border: 3px solid black;
+    margin: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bingo img{
+    height: 100px;
+}
+
+.red{
+    height: 125px;
+    width: 125px;
+    background-color: #f36870;
+    border: 3px solid black;
+    margin: 2px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
